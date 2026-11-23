@@ -1,0 +1,33 @@
+# Secrets and local environment
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated builds
+**/node_modules/
+**/vendor/
+**/.next/
+**/out/
+**/.vercel/
+**/public/build/
+**/public/hot
+**/public/storage
+**/bootstrap/cache/*.php
+
+# Local databases, logs, and runtime state
+backend/database/*.sqlite
+backend/database/*.sqlite-*
+**/storage/logs/*
+**/storage/framework/cache/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*
+backend/storage/app/private/*
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Local agent guidance
+/backend/AGENTS.md
+/backend/CLAUDE.md
